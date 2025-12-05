@@ -1,80 +1,82 @@
-Semantic HTML challenge
-=================
+# Punk Rock Table Challenge: Completed Semantic HTML/CSS Table 🤘
 
-\ ゜o゜)ノ
+This repository contains the completed solution for the **Semantic HTML/CSS Table Challenge**. The goal of this project was to leverage best practices in front-end development, focusing on clean semantic HTML and layered CSS to achieve a complex punk-inspired aesthetic.
 
-HTML/CSS Table
---------------
+---
 
-HTML/CSS Table Challenge![completed table](https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fimage_0.png?1527761915609)
+# Project Overview
 
-# Instructions
+The core requirement was to construct a responsive data table and style it according to detailed design specifications, including:
 
-clone this repo to your own GitHub or download the images and copy/create an index.html and styles.css on your local machine or a code sharing platform such as codepen.io
+* Unique background textures
+* Custom fonts
+* Complex colour palettes
 
+---
 
-# Challenge
+# Key Features and Techniques Learnt
 
-Make the table above in HTML and style with CSS and embed your solution in a blog post. 
+1. Semantic HTML Structure
 
-1. The table width should fill any container it is put in
+Used `<thead>`, `<tbody>`, and `<tfoot>` to structure the table logically, improving accessibility and enabling targeted CSS.
 
-2. The [noise image](https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fnoise.png) is on the table body only not the head or foot
+2. Controlled Layout
 
-3. The two fonts are **Rock Salt** and **Helvetica Neu**
+Applied `table-layout: fixed` to create predictable column widths controlled via `<th>` elements.
 
-4. Here is that lovely [leopard skin image](https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245)
+3. Border Management
 
-5. There is a gradient fill on the header and footer - rgba(0,0,0,0.1),  rgba(0,0,0,0.5)
+Used `border-collapse: collapse` to merge adjoining borders for a cleaner, single-line border appearance.
 
-6. Here are those delicious colours
+4. Layered CSS Styling
 
-    1. **#800080** (Border)
+Gradient fill applied to header and footer (`<thead>` / `<tfoot>`)
+Noise-textured background image applied to the table body (`<tbody>`)
 
-    2. **#ff33cc** (background on rows 1, 3, 5, and 7)
+5. Readability and Design
 
-    3. **#e495e4** (background on rows 2, 4, 6, and 8)
+Implemented zebra striping with:
 
-# Tips
+**Odd rows:** `#ff33cc` (Hot Pink)
+**Even rows:** `#e495e4` (Light Pink/Mauve)
 
-* Get control of your [table-layout](https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout).
+6. Responsiveness
 
-* Think about your [font stack](https://www.thoughtco.com/font-stack-definition-3467414).
+Used percentage-based widths to ensure the table flexibly fills its container.
 
-* Make your table markup as simple as possible, and keep things flexible, e.g. by using percentages, so the design is more responsive.
+7. Typography
 
-* Use [table-layout](https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout): fixed to create a more predictable table layout that allows you to easily set column widths by setting [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width) on their headings ([th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)).
+Included two fonts:
 
-* Use [border-collapse](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse): collapse to make table elements borders collapse into each other, producing a neater and easier to control look.
+**Rock Salt**
+**Helvetica Neue**
 
-* Use [thead](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead), [tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody), and [tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot) to break up your table into logical chunks and provide extra places to apply CSS to, so it is easier to layer styles on top of one another if required.
+---
 
-* Use zebra striping to make alternate rows easier to read.
+# Technology Used
 
-* Use [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) to line up your [th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th) and [td](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) text, to make things neater and easier to follow.
+Category | Tools
 
-# Resources
+**Markup:** HTML5 (Semantic Elements)
+**Styling:** CSS3 (Gradients, Background Images, Typography)
 
-## Links
+---
 
-[W3Schools Table Layout](https://www.w3schools.com/cssref/pr_tab_table-layout.asp)
+# Design Specifications Achieved
 
-[CSS Tricks Fixed Table Layout](https://css-tricks.com/fixing-tables-long-strings/)
+| Specification            | Details                                                 |
+| ------------------------ | ------------------------------------------------------- |
+| Full Container Width     | `<table>` fills 100% of container                       |
+| Border Colour            | `#800080` (Purple) applied to `<table>`, `<th>`, `<td>` |
+| Header/Footer Fill       | Gradient: `rgba(0,0,0,0.1)` → `rgba(0,0,0,0.5)`         |
+| Body Background          | Noise texture applied to `<tbody>`                      |
+| Zebra Stripe (Odd Rows)  | `#ff33cc`                                               |
+| Zebra Stripe (Even Rows) | `#e495e4`                                               |
+| Fonts                    | Rock Salt and Helvetica Neue                            |
 
-[MDN - :nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child) 
+---
 
-[MDN - caption-side](https://developer.mozilla.org/en-US/docs/Web/CSS/caption-side)
+# How to View the Project
 
-[MDN - border collapse](https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse)
-
-[MDN - Text Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)  
-
-[MDN - Linear Gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
-
-[MDN - Web Fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
-
-## Table Data
-
-### Caption
-
-A summary of the UK's most famous punk bands
+1. Clone this repository: git clone https://github.com/Interlaken0/semantic-html-challenge/tree/master
+2. Open `index.html` in your web browser.
