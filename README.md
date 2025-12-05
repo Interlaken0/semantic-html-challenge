@@ -58,16 +58,16 @@ Included two fonts:
 Below are visual previews of the completed Semantic HTML/CSS Table.
 
 ### Screenshot 1 – Page Layout / Full Design
-![Screenshot 1](images/fulltable.png)
+![Screenshot 1](images/
 
 ### Screenshot 2 – Header Gradient
-![Screenshot 2](images/headergradient.png)
+![Screenshot 2](images/
 
 ### Screenshot 3 – Footer Gradient
-![Screenshot 3](images/footergradient.png)
+![Screenshot 3](images/
 
 ### Screenshot 4 – Noise Texture Background
-![Screenshot 4](images/noisebackground.png)
+![Screenshot 4](images/
 
 # Technology Used
 
