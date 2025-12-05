@@ -1,0 +1,99 @@
+/* General Body Styling and Font Stack */
+body {
+  /* Using Helvetica Neue as the primary font, as specified  */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* Styling the container for the blog post */
+.blog-post {
+  max-width: 900px;
+  margin: 20px auto; 
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  /* Applied Rock Salt for a distinct look  */
+  font-family: 'Rock Salt', cursive; 
+  color: #800080;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* --- TABLE STYLING --- */
+
+.punk-table {
+  width: 100%; /* CHALLENGE: Table width should fill any container  */
+  border-collapse: collapse; /* TIP: Collapse borders  */
+  table-layout: fixed; /* TIP: Create a predictable table layout  */
+  margin: 20px 0;
+  border: 5px solid #800080; /* COLOUR: Border #800080 [cite: 15] */
+  /* IMAGE: Applied leopard skin image to the border area [cite: 12] */
+  background-image: url('leopardskin.jpg'); 
+  background-size: cover;
+}
+
+/* Table Head and Foot Styling */
+thead, tfoot {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+  /* GRADIENT: Applied gradient fill on the header and footer  */
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border-color: #800080;
+}
+
+/* Header Cells (th) */
+thead th {
+  font-family: 'Rock Salt', cursive;
+  text-align: center; /* TIP: Text alignment [cite: 27] */
+  padding: 15px 10px;
+  border: 1px solid #800080;
+  border-bottom: 3px solid #800080;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* Setting column widths using percentages [cite: 22] */
+.punk-table th:nth-child(1) { width: 28%; } /* BAND */
+.punk-table th:nth-child(2) { width: 17%; } /* YEAR FORMED */
+.punk-table th:nth-child(3) { width: 15%; } /* NO. OF ALBUMS */
+.punk-table th:nth-child(4) { width: 40%; } /* MOST FAMOUS SONG */
+
+/* Table Body Styling */
+tbody {
+  color: #333;
+  /* IMAGE: The noise image on the table body only [cite: 10] */
+  background-image: url('noise.png'); 
+  background-repeat: repeat;
+}
+
+/* Zebra Striping (Alternate Row Colours) [cite: 26] */
+/* COLOUR: Odd rows -> #ff33cc [cite: 16] */
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc; 
+}
+
+/* COLOUR: Even rows -> #e495e4 [cite: 17] */
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+/* Data Cells (td) */
+tbody td {
+  padding: 10px 10px;
+  border: 1px solid #800080;
+  text-align: left; 
+}
+
+/* Footer Cell Styling */
+tfoot td {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: 1px solid #800080;
+  border-top: 3px solid #800080;
+}
