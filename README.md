@@ -1,4 +1,4 @@
-# Punk Rock Table Challenge: Completed Semantic HTML/CSS Table 🤘
+# Punk Rock Table Challenge: Completed Semantic HTML/CSS Table
 
 This repository contains the completed solution for the **Semantic HTML/CSS Table Challenge**. The goal of this project was to leverage best practices in front-end development, focusing on clean semantic HTML and layered CSS to achieve a complex punk-inspired aesthetic.
 
