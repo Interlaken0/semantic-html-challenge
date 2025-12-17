@@ -1,96 +1,57 @@
-# Punk Rock Table Challenge: Completed Semantic HTML/CSS Table
+# Punk Rock Table Challenge  
+**Semantic HTML & CSS – Completed Solution**
 
-This repository contains the completed solution for the **Semantic HTML/CSS Table Challenge**. The goal of this project was to leverage best practices in front-end development, focusing on clean semantic HTML and layered CSS to achieve a complex punk-inspired aesthetic.
+This repository contains a completed solution to the **Semantic HTML/CSS Table Challenge**, focused on producing a fully responsive, accessible data table styled to a punk-inspired visual brief.
 
----
-
-# Project Overview
-
-The core requirement was to construct a responsive data table and style it according to detailed design specifications, including:
-
-* Unique background textures
-* Custom fonts
-* Complex colour palettes
+The project demonstrates correct semantic markup, disciplined CSS layering, and controlled layout techniques to meet a detailed design specification.
 
 ---
 
-# Key Features and Techniques Learnt
+## Project Overview
 
-1. Semantic HTML Structure
+The objective of this challenge was to build a **semantic HTML table** and apply **advanced CSS styling** while maintaining accessibility, responsiveness, and clean structure.
 
-Used `<thead>`, `<tbody>`, and `<tfoot>` to structure the table logically, improving accessibility and enabling targeted CSS.
-
-2. Controlled Layout
-
-Applied `table-layout: fixed` to create predictable column widths controlled via `<th>` elements.
-
-3. Border Management
-
-Used `border-collapse: collapse` to merge adjoining borders for a cleaner, single-line border appearance.
-
-4. Layered CSS Styling
-
-Gradient fill applied to header and footer (`<thead>` / `<tfoot>`)
-Noise-textured background image applied to the table body (`<tbody>`)
-
-5. Readability and Design
-
-Implemented zebra striping with:
-
-**Odd rows:** `#ff33cc` (Hot Pink)
-**Even rows:** `#e495e4` (Light Pink/Mauve)
-
-6. Responsiveness
-
-Used percentage-based widths to ensure the table flexibly fills its container.
-
-7. Typography
-
-Included two fonts:
-
-**Rock Salt**
-**Helvetica Neue**
+Key goals included:
+- Correct semantic table structure
+- Full-width responsive layout
+- Layered visual effects using gradients and textures
+- Strict adherence to provided colour, font, and layout rules
 
 ---
 
-# Screenshots
+## Key Features & Techniques
 
-Below are visual previews of the completed Semantic HTML/CSS Table.
+### Semantic HTML
+- Proper use of `<table>`, `<thead>`, `<tbody>`, and `<tfoot>`
+- Logical separation of header, body, and summary data
+- Improved accessibility and CSS targeting
 
-### Screenshot 1 – Page Layout / Full Design
-![Screenshot 1](images/
+### Layout Control
+- `table-layout: fixed` used for predictable column sizing
+- Column widths controlled via `<th>` elements
+- Table scales to fill its container using percentage-based widths
 
-### Screenshot 2 – Header Gradient
-![Screenshot 2](images/
+### Borders & Structure
+- `border-collapse: collapse` for clean, single-line borders
+- Consistent purple border styling across table, headers, and cells
 
-### Screenshot 3 – Footer Gradient
-![Screenshot 3](images/
+### Layered CSS Styling
+- Gradient overlays applied to `<thead>` and `<tfoot>`
+- Leopard skin image layered beneath header and footer gradients
+- Noise texture applied **only** to `<tbody>`
 
-### Screenshot 4 – Noise Texture Background
-![Screenshot 4](images/
+### Zebra Striping
+Improved readability through alternating row colours:
+- Odd rows: `#ff33cc` (Hot Pink)
+- Even rows: `#e495e4` (Light Pink / Mauve)
 
-# Technology Used
-
-Category | Tools
-
-**Markup:** HTML5 (Semantic Elements)
-**Styling:** CSS3 (Gradients, Background Images, Typography)
-
----
-
-# Design Specifications Achieved
-
-| Specification            | Details                                                 |
-| ------------------------ | ------------------------------------------------------- |
-| Full Container Width     | `<table>` fills 100% of container                       |
-| Border Colour            | `#800080` (Purple) applied to `<table>`, `<th>`, `<td>` |
-| Header/Footer Fill       | Gradient: `rgba(0,0,0,0.1)` → `rgba(0,0,0,0.5)`         |
-| Body Background          | Noise texture applied to `<tbody>`                      |
-| Zebra Stripe (Odd Rows)  | `#ff33cc`                                               |
-| Zebra Stripe (Even Rows) | `#e495e4`                                               |
-| Fonts                    | Rock Salt and Helvetica Neue                            |
+### Typography
+Two fonts are used to establish contrast:
+- **Rock Salt** – headers, footer, decorative text
+- **Helvetica Neue** – body text and data cells
 
 ---
+
 
 # How to View the Project
 
