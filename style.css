@@ -6,7 +6,7 @@ body {
 }
 
 .blog-post {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
   background: #fff;
@@ -22,10 +22,11 @@ h1 {
 
 /* --- TABLE STYLING --- */
 .punk-table {
-  width: 100%;
+  width: 95%;
+  max-width: 1200px;
   border-collapse: collapse;
   table-layout: fixed;
-  margin: 20px 0;
+  margin: 20px auto;
   border: 5px solid #800080;
 }
 
@@ -47,18 +48,25 @@ h1 {
 .punk-table thead th {
   font-family: 'Rock Salt', cursive;
   text-align: center;
-  padding: 15px 10px;
-  border: 1px solid #800080;
-  border-bottom: 3px solid #800080;
+  padding: 15px 8px;
+  border-bottom: 4px solid #800080;
+  border-right: 4px solid #800080;
   text-transform: uppercase;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* Remove right border from last header cell */
+.punk-table thead th:last-child {
+  border-right: none;
 }
 
 /* Column Widths */
-.punk-table th:nth-child(1) { width: 28%; } /* BAND */
-.punk-table th:nth-child(2) { width: 17%; } /* YEAR FORMED */
-.punk-table th:nth-child(3) { width: 15%; } /* NO. OF ALBUMS */
-.punk-table th:nth-child(4) { width: 40%; } /* MOST FAMOUS SONG */
+.punk-table th:nth-child(1) { width: 25%; } /* BAND */
+.punk-table th:nth-child(2) { width: 25%; } /* YEAR FORMED */
+.punk-table th:nth-child(3) { width: 25%; } /* NO. OF ALBUMS */
+.punk-table th:nth-child(4) { width: 25%; } /* MOST FAMOUS SONG */
 
 /* Table Body Styling */
 .punk-table tbody {
@@ -78,17 +86,59 @@ h1 {
 
 /* Data Cells */
 .punk-table tbody td {
-  padding: 10px;
-  border: 1px solid #800080;
-  text-align: left;
+  padding: 15px 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Footer Cell Styling */
 .punk-table tfoot td {
   text-align: center;
-  padding: 10px;
-  font-size: 1.1em;
+  padding: 15px 10px;
+  font-size: 0.9em;
   font-weight: bold;
-  border: 1px solid #800080;
-  border-top: 3px solid #800080;
+  border-top: 4px solid #800080;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+              url("../assets/leopardskin.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.total-albums {
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 0.9em;
+  padding: 15px 10px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+              url("../assets/leopardskin.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Table Footer Styling */
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.caption {
+  font-family: 'Rock Salt', cursive;
+  color: #666;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.designer {
+  font-family: 'Rock Salt', cursive;
+  color: #800080;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 20px;
 }

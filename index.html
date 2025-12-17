@@ -12,10 +12,6 @@
 
   <body>
     <article class="blog-post">
-      <h1>UK Punk's Finest: A Semantic HTML Table Challenge</h1>
-      <p>
-        This table showcases proficiency in structural HTML and complex CSS styling as part of the Semantic HTML Challenge.
-      </p>
 
       <table class="punk-table">
         <thead>
@@ -40,16 +36,17 @@
 
         <tfoot>
           <tr>
-            <td colspan="4">
-              TOTAL ALBUMS: 77 &nbsp; | &nbsp; A SUMMARY OF THE UK'S MOST FAMOUS PUNK BANDS
+            <td colspan="4" class="total-albums">
+              TOTAL ALBUMS 77
             </td>
           </tr>
         </tfoot>
       </table>
 
-      <footer style="text-align:center; margin: 20px 0; font-family: 'Rock Salt', cursive; color:#800080;">
-        Designed by Greg
-      </footer>
+      <div class="table-footer">
+        <div class="caption">A SUMMARY OF THE UK'S MOST FAMOUS PUNK BANDS</div>
+        <div class="designer">Designed by Greg</div>
+      </div>
     </article>
 
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
