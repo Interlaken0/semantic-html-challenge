@@ -35,7 +35,7 @@ h1 {
 .punk-table tfoot {
   background: 
     linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
-    url("../assets/leopardskin.jpg");
+    url("./assets/leopardskin.jpg");
   background-size: cover;
   background-repeat: repeat-x;
   font-family: 'Rock Salt', cursive;
@@ -57,21 +57,20 @@ h1 {
   letter-spacing: 0.5px;
 }
 
-/* Remove right border from last header cell */
 .punk-table thead th:last-child {
   border-right: none;
 }
 
 /* Column Widths */
-.punk-table th:nth-child(1) { width: 25%; } /* BAND */
-.punk-table th:nth-child(2) { width: 25%; } /* YEAR FORMED */
-.punk-table th:nth-child(3) { width: 25%; } /* NO. OF ALBUMS */
-.punk-table th:nth-child(4) { width: 25%; } /* MOST FAMOUS SONG */
+.punk-table th:nth-child(1) { width: 25%; }
+.punk-table th:nth-child(2) { width: 25%; }
+.punk-table th:nth-child(3) { width: 25%; }
+.punk-table th:nth-child(4) { width: 25%; }
 
 /* Table Body Styling */
 .punk-table tbody {
   color: #333;
-  background-image: url('../assets/noise.png');
+  background-image: url('./assets/noise.png');
   background-repeat: repeat;
 }
 
@@ -79,7 +78,6 @@ h1 {
 .punk-table tbody tr:nth-child(odd) {
   background-color: #ff33cc;
 }
-
 .punk-table tbody tr:nth-child(even) {
   background-color: #e495e4;
 }
@@ -92,30 +90,19 @@ h1 {
 }
 
 /* Footer Cell Styling */
-.punk-table tfoot td {
+.punk-table tfoot td,
+.total-albums {
   text-align: center;
   padding: 15px 10px;
   font-size: 0.9em;
   font-weight: bold;
   border-top: 4px solid #800080;
   background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
-              url("../assets/leopardskin.jpg");
+              url("./assets/leopardskin.jpg");
   background-size: cover;
   color: white;
   text-shadow: 1px 1px 2px #000;
-}
-
-.total-albums {
   font-family: 'Rock Salt', cursive;
-  text-align: center;
-  letter-spacing: 0.5px;
-  font-size: 0.9em;
-  padding: 15px 10px;
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
-              url("../assets/leopardskin.jpg");
-  background-size: cover;
-  color: white;
-  text-shadow: 1px 1px 2px #000;
 }
 
 /* Table Footer Styling */
