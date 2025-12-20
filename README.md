@@ -1,59 +1,91 @@
-# Punk Rock Table Challenge  
-**Semantic HTML & CSS – Completed Solution**
+# Semantic HTML Challenge – Punk Table
 
-This repository contains a completed solution to the **Semantic HTML/CSS Table Challenge**, focused on producing a fully responsive, accessible data table styled to a punk-inspired visual brief.
+A small front-end project demonstrating **semantic HTML** and **structured CSS styling** by building a punk-themed data table. The focus is on correct HTML table semantics, accessibility-friendly structure, and creative visual design using pure CSS.
 
-The project demonstrates correct semantic markup, disciplined CSS layering, and controlled layout techniques to meet a detailed design specification.
+## Live Demo
+
+https://interlaken0.github.io/semantic-html-challenge/
+
+## Repository
+
+https://github.com/Interlaken0/semantic-html-challenge/tree/master
 
 ---
 
 ## Project Overview
 
-The objective of this challenge was to build a **semantic HTML table** and apply **advanced CSS styling** while maintaining accessibility, responsiveness, and clean structure.
+This project presents a summary table of famous UK punk bands using proper semantic HTML elements and a bold, punk-inspired visual style.
 
-Key goals included:
-- Correct semantic table structure
-- Full-width responsive layout
-- Layered visual effects using gradients and textures
-- Strict adherence to provided colour, font, and layout rules
+The table is wrapped in an `<article>` element to reflect real-world content usage such as a blog post or editorial layout.
 
 ---
 
-## Key Features & Techniques
+## Features
 
-### Semantic HTML
-- Proper use of `<table>`, `<thead>`, `<tbody>`, and `<tfoot>`
-- Logical separation of header, body, and summary data
-- Improved accessibility and CSS targeting
+- **Semantic HTML**
+  - `<table>` for tabular data
+  - `<thead>` for column headings
+  - `<tbody>` for main content rows
+  - `<tfoot>` for summary information
+  - Correct use of `colspan` for totals
 
-### Layout Control
-- `table-layout: fixed` used for predictable column sizing
-- Column widths controlled via `<th>` elements
-- Table scales to fill its container using percentage-based widths
+- **Responsive Layout**
+  - Table width adapts to its container
+  - `table-layout: fixed` for consistent column sizing
 
-### Borders & Structure
-- `border-collapse: collapse` for clean, single-line borders
-- Consistent purple border styling across table, headers, and cells
+- **Custom Styling**
+  - Google Font: Rock Salt
+  - Zebra striping for readability
+  - Leopard skin texture and noise overlay
+  - Gradient header and footer
+  - Bold colour palette and typography
 
-### Layered CSS Styling
-- Gradient overlays applied to `<thead>` and `<tfoot>`
-- Leopard skin image layered beneath header and footer gradients
-- Noise texture applied **only** to `<tbody>`
-
-### Zebra Striping
-Improved readability through alternating row colours:
-- Odd rows: `#ff33cc` (Hot Pink)
-- Even rows: `#e495e4` (Light Pink / Mauve)
-
-### Typography
-Two fonts are used to establish contrast:
-- **Rock Salt** – headers, footer, decorative text
-- **Helvetica Neue** – body text and data cells
+- **Separation of Concerns**
+  - HTML handles structure and meaning
+  - CSS handles layout and presentation
 
 ---
 
+## File Structure
 
-# How to View the Project
+semantic-html-challenge/
+│
+├── index.html
+├── style.css
+├── assets/
+│ ├── leopardskin.jpg
+│ └── noise.png
+└── README.md
 
-1. Clone this repository: git clone https://github.com/Interlaken0/semantic-html-challenge/tree/master
-2. Open `index.html` in your web browser.
+yaml
+Copy code
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Google Fonts
+- GitHub Pages
+
+---
+
+## Learning Objectives
+
+- Practice semantic HTML for tabular data
+- Understand correct table structure for accessibility
+- Apply advanced CSS styling without JavaScript
+- Reinforce clean project organisation
+
+---
+
+## Author
+
+Designed by Greg
+
+---
+
+## License
+
+This project is open-source and free to remix for educational or portfolio use.
