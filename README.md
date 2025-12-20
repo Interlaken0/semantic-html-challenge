@@ -8,7 +8,7 @@ https://interlaken0.github.io/semantic-html-challenge/
 
 ## Repository
 
-https://github.com/Interlaken0/semantic-html-challenge/tree/master
+https://github.com/Interlaken0/semantic-html-challenge/tree/master/
 
 ---
 
